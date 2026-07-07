@@ -12,6 +12,8 @@ function yearsOfExperience() {
   return Math.floor(years);
 }
 
+
+// Changed this funtion cause I just needed text and not to build stats. Look in the OG code for this function if wanting to change back to fancy stats.
 function buildStats() {
   return [
   { value: "Question Why", label: "Challenge inefficient processes." },
