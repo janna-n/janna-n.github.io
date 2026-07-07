@@ -1,7 +1,7 @@
 export const bio = [
-  "Senior Frontend Engineer — 5+ years turning complex product requirements into fast, maintainable Angular and React applications at scale.",
-  "I specialize in TypeScript, RxJS, NgRx, and Nx monorepos. I've led full AngularJS-to-Angular migrations, architected microfrontends with Module Federation, and shipped design systems adopted across multiple product teams.",
-  "When I'm not writing code, I'm crossing mountain passes — including Khardung La at 18,379 ft.",
+  "Business Analyst focused on process improvement, workforce coordination, reporting, and building tools that make decisions easier and repetitive work disappear. ",
+  "Most of the projects I’ve worked on started the same way: poorly planned systems, inconsistent workflows, too much manual work, and a desperate need for efficiency. I enjoy stepping into those environments and figuring out how to make everyone’s lives easier. I build systems that give teams better tools and more time to focus on the work that actually matters. ",
+  "When I’m not building spreadsheets and workflows, you can usually find me behind a camera or somewhere on the other side of the world collecting postcards.",
 ];
 
 export const skills = [
