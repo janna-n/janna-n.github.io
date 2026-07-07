@@ -14,10 +14,10 @@ function yearsOfExperience() {
 
 function buildStats() {
   return [
-  { value: "Data", label: "Turning information into decisions." },
-  { value: "Process", label: "Designing systems people actually want to use." },
-  { value: "Automation", label: "Reducing repetitive work through technology." },
-  { value: "Curiosity", label: "Learning whatever tool the problem requires." },
+  { value: "Ask Why", label: "Challenge inefficient processes." },
+  { value: "Find Patterns", label: "Spot trends others miss." },
+  { value: "Build Systems", label: "Create tools that scale." },
+  { value: "Keep It Simple", label: "Design for real users." },
 ];
 }
 
