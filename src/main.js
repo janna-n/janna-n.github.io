@@ -10,7 +10,7 @@ import { mountAbout } from "./components/about.js";
 import { mountExperience } from "./components/experience.js";
 import { mountSkills } from "./components/skills.js";
 import { mountGithub, repoListTemplate } from "./components/github.js";
-import { mountBlog, blogListTemplate } from "./components/projects.js";
+// import { mountBlog, blogListTemplate } from "./components/projects.js";
 import { mountAdventures } from "./components/adventures.js";
 import { mountContact, initContactForm } from "./components/contact.js";
 import { mountFooter } from "./components/footer.js";
@@ -79,4 +79,4 @@ mountStaticSections();
 initServices();
 observeReveals();
 
-Promise.allSettled([loadRepos(), loadBlogs(), loadPageTitle()]);
+Promise.allSettled([loadRepos(), loadPageTitle()]);

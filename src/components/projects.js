@@ -1,6 +1,6 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
-import { timeAgo } from "../utils/fetch.js";
+// import { timeAgo } from "../utils/fetch.js";
 
 const blogSkeleton = () => html`
   <div class="blog-card glass glass-interactive glow-card">
