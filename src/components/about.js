@@ -14,7 +14,7 @@ function yearsOfExperience() {
 
 function buildStats() {
   return [
-  { value: "Ask Why", label: "Challenge inefficient processes." },
+  { value: "Ask 'Why'", label: "Challenge inefficient processes." },
   { value: "Find Patterns", label: "Spot trends others miss." },
   { value: "Build Systems", label: "Create tools that scale." },
   { value: "Keep It Simple", label: "Design for real users." },
