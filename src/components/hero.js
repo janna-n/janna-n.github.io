@@ -3,11 +3,11 @@ import { mount } from "../utils/dom.js";
 import { RESUME_URL } from "../constants/urls.js";
 
 const FLOATING_BADGES = [
-  { label: "Data Analysis", icon: "fa-brands fa-square-js", pos: "badge-1" },
-  { label: "Excel", icon: "fa-brands fa-angular", pos: "badge-2" },
-  { label: "Process Design", icon: "fa-brands fa-react", pos: "badge-3" },
-  { label: "Python", icon: "fa-solid fa-diagram-project", pos: "badge-4" },
-  { label: "Automation", icon: "fa-solid fa-robot", pos: "badge-5" },
+  { label: "Data Analysis", icon: "fa-solid fa-magnifying-glass-chart", pos: "badge-1" },
+  { label: "Excel", icon: "fa-solid fa-file-excel", pos: "badge-2" },
+  { label: "Process Design", icon: "fa-solid fa-chart-diagram", pos: "badge-3" },
+  { label: "Python", icon: "fa-solid fa-square-terminal", pos: "badge-4" },
+  { label: "Automation", icon: "fa-solid fa-conveyor-belt", pos: "badge-5" },
 ];
 
 const badgeTemplate = (badge) => html`
