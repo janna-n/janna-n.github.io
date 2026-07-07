@@ -45,13 +45,13 @@ const heroTemplate = () => html`
         <a
           class="btn btn-primary magnetic ripple" href="#experience"
         >
-          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
           View Projects
         </a>
         <a class="btn btn-secondary magnetic ripple"
         href="${RESUME_URL}"
           target="_blank"
           rel="noopener noreferrer">
+          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
           Resume
         </a>
         <a class="btn btn-ghost underline-link magnetic" href="#contact">
