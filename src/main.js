@@ -42,14 +42,14 @@ async function loadBlogs() {
   }
 }
 
-async function loadPageTitle() {
-  try {
-    const { basics } = await fetchJson(URLs.gitConnected, "gitconnected");
-    if (basics?.name) document.title = `${basics.name} — Senior Frontend Engineer`;
-  } catch {
-    // non-critical — silent fail, default <title> already set
-  }
-}
+// async function loadPageTitle() {
+//  try {
+//    const { basics } = await fetchJson(URLs.gitConnected, "gitconnected");
+//    if (basics?.name) document.title = `${basics.name} — Senior Frontend Engineer`;
+//  } catch {
+//    // non-critical — silent fail, default <title> already set
+//  }
+// }
 
 function mountStaticSections() {
   mountNav();
