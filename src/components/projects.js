@@ -3,27 +3,29 @@ import { mount } from "../utils/dom.js";
 import { timeAgo } from "../utils/fetch.js";
 
 const blogSkeleton = () => html`
-  <div class="blog-card glass glass-interactive glow-card">
-    <h3 class="blog-title">Title</h3>
-    <p class="blog-excerpt">
-      Description
-    </p>
+  <div class="blog-card glass" aria-hidden="true">
+    <div class="skeleton" style="height:14px;width:40%;margin-bottom:14px"></div>
+    <div class="skeleton" style="height:20px;width:85%;margin-bottom:10px"></div>
+    <div class="skeleton" style="height:14px;width:95%;margin-bottom:6px"></div>
+    <div class="skeleton" style="height:14px;width:70%"></div>
   </div>
 `;
 
 const blogTemplate = () => html`
   <div class="container">
     <div class="section-heading">
-      <p class="section-eyebrow" data-reveal>Portfolio</p>
+      <p class="section-eyebrow" data-reveal>Writing</p>
       <h2 class="section-title" id="blog-title" data-reveal>
-        Latest <span class="gradient-text">Projects</span>
+        Latest <span class="gradient-text">Blog Posts</span>
       </h2>
       <p class="section-subtitle" data-reveal>
-        A selection of projects demonstrating problem solving, analysis, automation, and process improvement.
+        Notes from
+        <a class="underline-link" href="https://vinaysomawat.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>
+        on frontend architecture and shipping at scale.
       </p>
     </div>
     <div class="blog-grid" id="blogs">
-      ${[0, 1, 2, 3].map(() => blogSkeleton())}
+      ${[0, 1, 2].map(() => blogSkeleton())}
     </div>
   </div>
 `;
