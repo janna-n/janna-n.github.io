@@ -36,9 +36,10 @@ const heroTemplate = () => html`
       </h1>
       <p class="hero-role gradient-text-animated" data-reveal>Building better ways of working</p>
       <p class="hero-description" data-reveal>
-        I enjoy untangling messy workflows, finding the bottlenecks, and building
-        practical tools that make people's jobs easier. Most of my projects
-        combine Excel, automation, reporting, and process design to streamline
+        I enjoy untangling messy workflows and building
+        practical tools that make people's jobs easier.
+        Most of my projects combine Excel, automation,
+        reporting, and process design to streamline
         repetitive work.
       </p>
       <div class="hero-cta-row" data-reveal>
