@@ -5,8 +5,8 @@ import { RESUME_URL } from "../constants/urls.js";
 const FLOATING_BADGES = [
   { label: "Data Analysis", icon: "fa-solid fa-magnifying-glass-chart", pos: "badge-1" },
   { label: "Excel", icon: "fa-solid fa-file-excel", pos: "badge-2" },
-  { label: "Process Design", icon: "fa-solid fa-chart-diagram", pos: "badge-3" },
-  { label: "Python", icon: "fa-solid fa-terminal", pos: "badge-4" },
+  { label: "Process Design", icon: "fa-solid fa-diagram-project", pos: "badge-3" },
+  { label: "Programming", icon: "fa-solid fa-terminal", pos: "badge-4" },
   { label: "Automation", icon: "fa-solid fa-gears", pos: "badge-5" },
 ];
 
