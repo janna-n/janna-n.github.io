@@ -34,7 +34,7 @@ const aboutTemplate = () => html`
     <div class="about-copy">
       <p class="section-eyebrow" data-reveal>About</p>
       <h2 class="section-title" id="about-title" data-reveal>
-        Turning operational chaos into systems people can actually use.
+        Turning chaos into systems people can actually use.
       </h2>
       <div class="about-bio" data-reveal>
         ${bio.map((paragraph) => html`<p>${paragraph}</p>`)}
