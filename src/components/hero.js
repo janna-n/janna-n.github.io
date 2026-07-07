@@ -3,11 +3,11 @@ import { mount } from "../utils/dom.js";
 import { RESUME_URL } from "../constants/urls.js";
 
 const FLOATING_BADGES = [
-  { label: "TypeScript", icon: "fa-brands fa-square-js", pos: "badge-1" },
-  { label: "Angular", icon: "fa-brands fa-angular", pos: "badge-2" },
-  { label: "React", icon: "fa-brands fa-react", pos: "badge-3" },
-  { label: "Nx Monorepo", icon: "fa-solid fa-diagram-project", pos: "badge-4" },
-  { label: "OpenAI", icon: "fa-solid fa-robot", pos: "badge-5" },
+  { label: "Data Analysis", icon: "fa-brands fa-square-js", pos: "badge-1" },
+  { label: "Excel", icon: "fa-brands fa-angular", pos: "badge-2" },
+  { label: "Process Design", icon: "fa-brands fa-react", pos: "badge-3" },
+  { label: "Python", icon: "fa-solid fa-diagram-project", pos: "badge-4" },
+  { label: "Automation", icon: "fa-solid fa-robot", pos: "badge-5" },
 ];
 
 const badgeTemplate = (badge) => html`
@@ -43,16 +43,16 @@ const heroTemplate = () => html`
       </p>
       <div class="hero-cta-row" data-reveal>
         <a
-          class="btn btn-primary magnetic ripple"
-          href="${RESUME_URL}"
-          target="_blank"
-          rel="noopener noreferrer"
+          class="btn btn-primary magnetic ripple" href="#experience"
         >
           <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
-          Resume
+          View Projects
         </a>
-        <a class="btn btn-secondary magnetic ripple" href="#experience">
-          View Work
+        <a class="btn btn-secondary magnetic ripple"
+        href="${RESUME_URL}"
+          target="_blank"
+          rel="noopener noreferrer">
+          Resume
         </a>
         <a class="btn btn-ghost underline-link magnetic" href="#contact">
           Contact
