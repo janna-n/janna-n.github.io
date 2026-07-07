@@ -29,16 +29,17 @@ const heroTemplate = () => html`
     <div class="hero-copy">
       <p class="hero-eyebrow" data-reveal>
         <span class="hero-status-dot"></span>
-        Open to interesting problems
+        Always asking, "Why are we doing it like this?"
       </p>
       <h1 class="hero-title" data-reveal>
-        Vinay Somawat
+        Janna Nystrom
       </h1>
-      <p class="hero-role gradient-text-animated" data-reveal>Senior Frontend Engineer</p>
+      <p class="hero-role gradient-text-animated" data-reveal>Building better ways of working</p>
       <p class="hero-description" data-reveal>
-        I build scalable web applications, design systems, AI-powered developer
-        experiences, and high-performance user interfaces — with Angular, React,
-        and TypeScript at the core.
+        I enjoy untangling messy workflows, finding the bottlenecks, and building
+        practical tools that make people's jobs easier. Most of my projects
+        combine Excel, automation, reporting, and process design to streamline
+        repetitive work.
       </p>
       <div class="hero-cta-row" data-reveal>
         <a
