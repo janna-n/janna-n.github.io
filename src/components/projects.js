@@ -3,11 +3,11 @@ import { mount } from "../utils/dom.js";
 import { timeAgo } from "../utils/fetch.js";
 
 const blogSkeleton = () => html`
-  <div class="blog-card glass" aria-hidden="true">
-    <div class="skeleton" style="height:14px;width:40%;margin-bottom:14px"></div>
-    <div class="skeleton" style="height:20px;width:85%;margin-bottom:10px"></div>
-    <div class="skeleton" style="height:14px;width:95%;margin-bottom:6px"></div>
-    <div class="skeleton" style="height:14px;width:70%"></div>
+  <div class="blog-card glass glass-interactive glow-card">
+    <h3 class="blog-title">Title</h3>
+    <p class="blog-excerpt">
+      Description
+    </p>
   </div>
 `;
 
