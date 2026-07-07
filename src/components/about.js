@@ -13,13 +13,12 @@ function yearsOfExperience() {
 }
 
 function buildStats() {
-  const years = yearsOfExperience();
   return [
-    { value: years ? `${years}+` : "5+", label: "Years of experience" },
-    { value: `${experience.length}`, label: "Companies shipped at scale" },
-    { value: "300K+", label: "Sellers served by shipped modules" },
-    { value: "35%", label: "Fewer UI bugs after design system rollout" },
-  ];
+  { value: "Data", label: "Turning information into decisions." },
+  { value: "Process", label: "Designing systems people actually want to use." },
+  { value: "Automation", label: "Reducing repetitive work through technology." },
+  { value: "Curiosity", label: "Learning whatever tool the problem requires." },
+];
 }
 
 const statCard = (stat) => html`
