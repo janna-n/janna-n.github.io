@@ -7,7 +7,7 @@ const FLOATING_BADGES = [
   { label: "Excel", icon: "fa-solid fa-file-excel", pos: "badge-2" },
   { label: "Process Design", icon: "fa-solid fa-diagram-project", pos: "badge-3" },
   { label: "Programming", icon: "fa-solid fa-terminal", pos: "badge-4" },
-  { label: "Automation", icon: "fa-solid fa-gears", pos: "badge-5" },
+  { label: "Automation", icon: "fa-solid fa-bolt", pos: "badge-5" },
 ];
 
 const badgeTemplate = (badge) => html`

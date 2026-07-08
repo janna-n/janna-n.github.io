@@ -5,11 +5,10 @@ import { skills } from "../../user-data/data.js";
 // Display-only grouping layered on top of the flat `skills` list in user-data/data.js
 // (kept flat there so the JSON generator tool's multi-select keeps working).
 const CATEGORIES = [
-  { category: "Languages & Frameworks", icon: "fa-solid fa-code", match: ["TypeScript", "Angular", "React", "Signals"] },
-  { category: "State & Data", icon: "fa-solid fa-diagram-project", match: ["RxJS", "NgRx", "NGXS", "WebSockets"] },
-  { category: "Architecture", icon: "fa-solid fa-layer-group", match: ["Nx", "Microfrontends", "Module Federation"] },
-  { category: "Tooling & Quality", icon: "fa-solid fa-vial", match: ["Storybook", "Playwright"] },
-  { category: "AI", icon: "fa-solid fa-robot", match: ["OpenAI"] },
+  { category: "Excel & Data Tools", icon: "fa-solid fa-table", match: ["Advanced Excel", "XLOOKUP", "Dynamic Arrays", "Power Query", "PivotTables"] },
+  { category: "Automation", icon: "fa-solid fa-bolt", match: ["Python", "VBA", "Power Apps", "PDF Automation"] },
+  { category: "Analytics & Reporting", icon: "fa-solid fa-chart-column", match: ["Dashboards", "Data Analysis", "Reporting", "Visualization"] },
+  { category: "Operations", icon: "fa-solid fa-sitemap", match: ["Process Improvement", "Workforce Planning", "Workflow Design", "Documentation"] },
 ];
 
 function groupSkills() {
@@ -46,8 +45,8 @@ const skillsTemplate = () => html`
         Skills & <span class="gradient-text">Technologies</span>
       </h2>
       <p class="section-subtitle" data-reveal>
-        The stack I reach for to turn ambiguous requirements into fast, resilient
-        interfaces.
+        The tools and approaches I use to turn messy processes, scattered information,
+        and operational challenges into structured solutions.
       </p>
     </div>
     <div class="skill-grid">

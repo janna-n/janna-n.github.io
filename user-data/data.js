@@ -5,20 +5,23 @@ export const bio = [
 ];
 
 export const skills = [
-  "TypeScript",
-  "Angular",
-  "React",
-  "Signals",
-  "RxJS",
-  "NgRx",
-  "NGXS",
-  "WebSockets",
-  "Nx",
-  "Microfrontends",
-  "Module Federation",
-  "Storybook",
-  "Playwright",
-  "OpenAI",
+  "Advanced Excel",
+  "XLOOKUP",
+  "Dynamic Arrays",
+  "Power Query",
+  "PivotTables",
+  "Python",
+  "VBA",
+  "Power Apps",
+  "PDF Automation",
+  "Dashboards",
+  "Data Analysis",
+  "Reporting",
+  "Visualization",
+  "Process Improvement",
+  "Workforce Planning",
+  "Workflow Design",
+  "Documentation",
 ];
 
 export const experience = [
