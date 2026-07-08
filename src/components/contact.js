@@ -24,10 +24,10 @@ const contactTemplate = () => html`
     <div class="contact-copy">
       <p class="section-eyebrow" data-reveal>Contact</p>
       <h2 class="section-title" id="contact-title" data-reveal>
-        Let's build something <span class="gradient-text">worth shipping</span>.
+        Let's build something <span class="gradient-text">useful</span>.
       </h2>
       <p class="section-subtitle" data-reveal>
-        Pick the channel that fits best — tech discussions, collaborations,
+        Pick the channel that fits best — discussions, collaborations,
         project feedback, or just a quick hello.
       </p>
       <ul class="contact-link-list" data-reveal>
