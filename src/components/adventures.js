@@ -45,6 +45,8 @@ const adventuresTemplate = () => html`
       </h2>
       <p class="section-subtitle" data-reveal>
         When I'm not organizing data, I'm usually organizing photos from somewhere new.
+        Travel has taken me through unfamiliar places, languages, and cultures.
+        Its constantly teaching me how to adapt and problem solve.
       </p>
     </div>
     <div class="adventure-grid">
