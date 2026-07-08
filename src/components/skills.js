@@ -5,8 +5,8 @@ import { skills } from "../../user-data/data.js";
 // Display-only grouping layered on top of the flat `skills` list in user-data/data.js
 // (kept flat there so the JSON generator tool's multi-select keeps working).
 const CATEGORIES = [
-  { category: "Excel & Data Tools", icon: "fa-solid fa-table", match: ["Advanced Excel", "XLOOKUP", "Dynamic Arrays", "Power Query", "PivotTables"] },
-  { category: "Automation", icon: "fa-solid fa-bolt", match: ["Python", "VBA", "Power Apps", "PDF Automation"] },
+  { category: "Excel & Data Tools", icon: "fa-solid fa-table", match: ["Advanced Excel", "XLOOKUP", "Dynamic Arrays", "PivotTables"] },
+  { category: "Automation", icon: "fa-solid fa-bolt", match: ["Python", "VBA", "Power Query", "Power Apps", "PDF Automation"] },
   { category: "Analytics & Reporting", icon: "fa-solid fa-chart-column", match: ["Dashboards", "Data Analysis", "Reporting", "Visualization"] },
   { category: "Operations", icon: "fa-solid fa-sitemap", match: ["Process Improvement", "Workforce Planning", "Workflow Design", "Documentation"] },
 ];
