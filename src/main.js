@@ -35,7 +35,7 @@ async function loadRepos() {
 async function loadBlogs() {
   try {
     const { items } = await fetchJson(URLs.medium, "Medium RSS");
-    mount("blogs", blogListTemplate(items));
+    mount("blogs", blogListTemplate());
     observeReveals(document.getElementById("blogs"));
   } catch {
     showError("blogs", "Could not load blog posts.");
