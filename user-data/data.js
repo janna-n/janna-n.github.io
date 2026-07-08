@@ -220,8 +220,8 @@ export const projects = [
     image: "https://placehold.co/600x400",
     title: "Project Title 3",
     description: "Project description goes here."
-  }
-    {
+  },
+  {
     image: "https://placehold.co/600x400",
     title: "Project Title 4",
     description: "Project description goes here."
