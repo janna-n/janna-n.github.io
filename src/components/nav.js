@@ -26,8 +26,8 @@ const linkItem = (link, mobile = false) => html`
 const navTemplate = () => html`
   <header class="site-nav glass" id="siteNav">
     <div class="container nav-inner">
-      <a href="#hero" class="nav-logo underline-link" aria-label="Vinay Somawat — back to top">
-        Vinay<span class="gradient-text">.</span>
+      <a href="#hero" class="nav-logo underline-link" aria-label="Janna Nystrom — back to top">
+        Janna<span class="gradient-text">.</span>
       </a>
 
       <nav class="nav-links" aria-label="Primary">
