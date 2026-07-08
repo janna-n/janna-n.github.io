@@ -39,7 +39,7 @@ const categoryChips = (categories = []) => html`
   </div>
 `;
 
-const blogCard = (item, index) => html`
+const projectCard = (item, index) => html`
   <div
     class="blog-card glass glass-interactive glow-card"
     data-reveal
@@ -56,6 +56,10 @@ const blogCard = (item, index) => html`
     <p class="blog-excerpt">
       ${item.description}
     </p>
+
+    <div class="blog-tags">
+      ${item.tags?.map((tag) => html`<span class="chip">${tag}</span>`)}
+    </div>
   </div>
 `;
 
