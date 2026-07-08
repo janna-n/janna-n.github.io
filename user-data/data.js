@@ -116,7 +116,7 @@ export const adventures = [
         duration: "2023",
       },
       {
-        name: "Bayswater Community Art Awards & Exhibition",
+        name: "Bayswater Art Awards & Exhibition",
         state: "Perth, Australia",
         height: "Special Mention",
         duration: "2021",
@@ -130,16 +130,13 @@ export const adventures = [
       {
         name: "Slow Photography Walks",
         state: "Barcelona, Málaga, Granada, Istanbul, Hanoi",
-        height: "Istanbul",
-        duration: "Hanoi",
-        level: "Hanoi",
         level: "Community Arts Engagement",
       },
     ],
   },
   {
-    title: "Mountain Passes Explored",
-    icon: "fa-solid fa-road",
+    title: "Cities Documented",
+    icon: "fa-solid fa-earth-asia",
     accent: "gold",
     items: [
       {

@@ -3,12 +3,12 @@ import { mount } from "../utils/dom.js";
 
 const NAV_LINKS = [
   { id: "about", label: "About" },
-  { id: "experience", label: "Experience" },
+  { id: "blog", label: "Portfolio" },
   { id: "skills", label: "Skills" },
-  { id: "github", label: "GitHub" },
-  { id: "blog", label: "Blog" },
+  { id: "experience", label: "Experience" },
   { id: "adventures", label: "Adventures" },
   { id: "contact", label: "Contact" },
+//  { id: "github", label: "GitHub" },
 ];
 
 const linkItem = (link, mobile = false) => html`
