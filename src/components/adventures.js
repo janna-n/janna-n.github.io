@@ -41,10 +41,10 @@ const adventuresTemplate = () => html`
     <div class="section-heading">
       <p class="section-eyebrow" data-reveal>Off the Clock</p>
       <h2 class="section-title" id="adventures-title" data-reveal>
-        Mountain <span class="gradient-text">Adventures</span>
+        Exploration <span class="gradient-text">& Photography</span>
       </h2>
       <p class="section-subtitle" data-reveal>
-        When I'm not writing code, I'm crossing mountain passes.
+        When I'm not organizing data, I'm usually organizing photos from somewhere new.
       </p>
     </div>
     <div class="adventure-grid">

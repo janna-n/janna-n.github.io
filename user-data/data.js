@@ -91,9 +91,9 @@ export const education = [
 
 export const adventures = [
   {
-    title: "Treks Completed",
-    icon: "fa-solid fa-person-hiking",
-    accent: "green",
+    title: "Photography Projects",
+    icon: "fa-solid fa-camera",
+    accent: "purple",
     items: [
       {
         name: "Chandrashila Trek",
@@ -148,6 +148,8 @@ export const adventures = [
         name: "Khardung La Pass",
         state: "Ladakh",
         height: "18,379 ft",
+        duration: "1 Day",
+        level: "Easy",
       },
       {
         name: "Chang La Pass",
