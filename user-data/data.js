@@ -207,7 +207,7 @@ export const contact = [
 export const footer = [
   {
     label: "copyright-text",
-    data: ["Vinay Somawat · Senior Frontend Engineer"],
+    data: ["Janna Nystrom · Business Analyst"],
   },
 ];
 
