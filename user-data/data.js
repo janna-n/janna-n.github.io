@@ -130,6 +130,7 @@ export const adventures = [
       {
         name: "Slow Photography Walks",
         state: "Barcelona, Málaga, Granada, Istanbul, Hanoi",
+        height: "Hosted",
         level: "Community Arts Engagement",
       },
     ],
@@ -182,25 +183,25 @@ export const adventures = [
 
 export const contact = [
   {
-    label: "vinaysomawat40@gmail.com",
-    link: "mailto:vinaysomawat40@gmail.com",
+    label: "jrose.n008@gmail.com",
+    link: "mailto:jrose.n008@gmail.com",
     icon: "fa-solid fa-envelope",
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/vinaysomawat/",
+    link: "https://www.linkedin.com/in/jannanystrom/",
     icon: "fa-brands fa-linkedin",
   },
   {
     label: "GitHub",
-    link: "https://github.com/vinaysomawat",
+    link: "https://github.com/janna-n",
     icon: "fa-brands fa-github",
   },
-  {
-    label: "Medium",
-    link: "https://vinaysomawat.medium.com/",
-    icon: "fa-brands fa-medium",
-  },
+//  {
+//    label: "Medium",
+//    link: "https://vinaysomawat.medium.com/",
+//    icon: "fa-brands fa-medium",
+//  },
 ];
 
 export const footer = [
