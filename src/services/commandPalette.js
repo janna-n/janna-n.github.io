@@ -11,8 +11,8 @@ const COMMANDS = [
   { label: "Adventures", target: "adventures", icon: "fa-solid fa-mountain-sun", meta: "Section" },
   { label: "Contact", target: "contact", icon: "fa-solid fa-envelope", meta: "Section" },
   { label: "Open GitHub Profile", href: URLs.githubProfile, icon: "fa-brands fa-github", meta: "External link" },
-  { label: "Open LinkedIn", href: "https://www.linkedin.com/in/vinaysomawat/", icon: "fa-brands fa-linkedin", meta: "External link" },
-  { label: "Open Medium", href: "https://vinaysomawat.medium.com/", icon: "fa-brands fa-medium", meta: "External link" },
+  { label: "Open LinkedIn", href: "https://www.linkedin.com/in/jannanystrom/", icon: "fa-brands fa-linkedin", meta: "External link" },
+  { label: "Open Medium", href: "https://BLANK.medium.com/", icon: "fa-brands fa-medium", meta: "External link" },
   { label: "Download Resume", href: RESUME_URL, icon: "fa-solid fa-file-arrow-down", meta: "Action" },
   { label: "JSON Generator Tool", href: "./pages/json-generator.html", icon: "fa-solid fa-file-code", meta: "Tool" },
 ];

@@ -19,12 +19,12 @@ const githubTemplate = () => html`
       </h2>
       <p class="section-subtitle" data-reveal>
         Live stats and pinned repositories, pulled directly from
-        <a class="underline-link" href="${URLs.githubProfile}" target="_blank" rel="noopener noreferrer">github.com/vinaysomawat</a>.
+        <a class="underline-link" href="${URLs.githubProfile}" target="_blank" rel="noopener noreferrer">github.com/janna-n</a>.
       </p>
     </div>
 
     <div class="profile-stats-row" data-reveal>
-      <div class="profile-card-shell glass tilt" data-github-card data-username="vinaysomawat">
+      <div class="profile-card-shell glass tilt" data-github-card data-username="janna-n">
         <div class="skeleton" style="height:80px"></div>
       </div>
       <div class="profile-card-shell glass tilt" data-stack-card data-user-id="8461233">
@@ -36,7 +36,7 @@ const githubTemplate = () => html`
       <figcaption class="contribution-graph-label">Contribution activity</figcaption>
       <img
         src="${URLs.gitContributionGraph}"
-        alt="GitHub contribution graph for vinaysomawat"
+        alt="GitHub contribution graph for janna-n"
         loading="lazy"
         width="880"
         height="110"
