@@ -14,7 +14,8 @@
 }
 
 .blog-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: var(--space-6);
 }
 
@@ -38,9 +39,6 @@
   font-size: var(--text-sm);
   line-height: var(--leading-relaxed);
   display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .blog-tags {
