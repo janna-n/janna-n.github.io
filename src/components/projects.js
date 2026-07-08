@@ -15,14 +15,12 @@ const blogSkeleton = () => html`
 const blogTemplate = () => html`
   <div class="container">
     <div class="section-heading">
-      <p class="section-eyebrow" data-reveal>Writing</p>
+      <p class="section-eyebrow" data-reveal>Portfolio</p>
       <h2 class="section-title" id="blog-title" data-reveal>
-        Latest <span class="gradient-text">Blog Posts</span>
+        Latest <span class="gradient-text">Projects</span>
       </h2>
       <p class="section-subtitle" data-reveal>
-        Notes from
-        <a class="underline-link" href="https://vinaysomawat.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>
-        on frontend architecture and shipping at scale.
+        A selection of projects focused on analytics, automation, process improvement, and operational design.
       </p>
     </div>
     <div class="blog-grid" id="blogs">
