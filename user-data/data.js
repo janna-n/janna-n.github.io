@@ -204,3 +204,21 @@ export const footer = [
     data: ["Vinay Somawat · Senior Frontend Engineer"],
   },
 ];
+
+export const projects = [
+  {
+    image: "https://placehold.co/600x400",
+    title: "Project Title 1",
+    description: "Project description goes here."
+  },
+  {
+    image: "https://placehold.co/600x400",
+    title: "Project Title 2",
+    description: "Project description goes here."
+  },
+  {
+    image: "https://placehold.co/600x400",
+    title: "Project Title 3",
+    description: "Project description goes here."
+  }
+];
