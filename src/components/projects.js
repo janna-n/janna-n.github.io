@@ -20,7 +20,7 @@ const blogTemplate = () => html`
         Latest <span class="gradient-text">Projects</span>
       </h2>
       <p class="section-subtitle" data-reveal>
-        A selection of projects focused on analytics, automation, process improvement, and operational design.
+        A selection of projects focused on automation, analytics, process improvement, and building tools that make operations easier.
       </p>
     </div>
     <div class="blog-grid" id="blogs">
