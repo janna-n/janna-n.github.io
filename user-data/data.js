@@ -70,21 +70,21 @@ export const experience = [
     details: [
       "Participated in structured volunteer programs requiring reliability, teamwork, and adapting to established procedures.",
     ],
-    tags: ["Teamwork", "Adaptability", "Organization"],
+    tags: ["Teamwork", "Adaptability", "Organization", "International Experience"],
     icon: "globe",
   },
 ];
 
-/*export const education = [
+export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 – 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "",
+    duration: "",
+    subtitle: "",
     details: [],
     tags: [],
-    icon: "graduation-cap",
+    icon: "",
   },
-];*/
+];
 
 export const adventures = [
   {
