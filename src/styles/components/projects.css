@@ -39,6 +39,10 @@
   font-size: var(--text-sm);
   line-height: var(--leading-relaxed);
   display: -webkit-box;
+/*These lines restrict the height of the boxes. In this case, hide after 3 lines.
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden; */
 }
 
 .blog-tags {

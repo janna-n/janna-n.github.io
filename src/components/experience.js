@@ -41,8 +41,8 @@ const experienceTemplate = () => {
           Work <span class="gradient-text">Experience</span>
         </h2>
         <p class="section-subtitle" data-reveal>
-          Six years of shipping frontend systems that stayed fast, stable, and
-          maintainable as usage scaled.
+          A background in operations, process improvement, and building systems
+          that make complex workflows easier to manage.
         </p>
       </div>
       <div class="timeline">

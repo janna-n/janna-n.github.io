@@ -23,12 +23,16 @@ export const skills = [
 
 export const experience = [
   {
-    title: "SS&C Technologies",
-    duration: "August 2025 – Present",
-    subtitle: "Senior Software Engineer",
+    title: "Brock Group",
+    duration: "Aug 2024 – Oct 2025",
+    subtitle: "Project Controls Admin / Lead On-Site Crew Coordinator",
     details: [
-      "Architect scalable Angular applications in an Nx monorepo — modular libraries, lazy loading, OnPush change detection, and optimized state with NgRx.",
-      "Own secure API integration (JWT/Keycloak), route guards/interceptors, and delivery quality via unit and e2e testing in CI/CD pipelines.",
+      "Worked on a large-scale construction project supporting workforce coordination, payroll processes, reporting, and operational administration for a workforce of nearly 1,000 employees.",
+      "Created workforce tracking systems that improved visibility into employee assignments, shifts, training, and crew structures.",
+      "Built Excel-based tools and reporting systems to reduce manual work and improve decision-making.",
+      "Managed high-volume financial workflows totaling multi-million dollars per week using SAP, maintaining strict data accuracy.",
+      "Developed automation solutions using Excel, Python, and Power Apps to simplify administrative processes.",
+      "Became a central resource for workforce information, supporting operations, HR, safety, onboarding, recruitment, and management teams."
     ],
     tags: ["Angular", "Nx", "NgRx", "Keycloak", "Playwright"],
     icon: "sack-dollar",

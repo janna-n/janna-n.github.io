@@ -1,7 +1,7 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
 import { projects } from "../../user-data/data.js";
-import { timeAgo } from "../utils/fetch.js";
+// import { timeAgo } from "../utils/fetch.js";
 
 const blogSkeleton = () => html`
   <div class="blog-card glass" aria-hidden="true">
