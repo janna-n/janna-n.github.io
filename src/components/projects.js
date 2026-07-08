@@ -41,19 +41,23 @@ const categoryChips = (categories = []) => html`
 `;
 
 const blogCard = (item, index) => html`
-  <a
+  <div
     class="blog-card glass glass-interactive glow-card"
-    href="${item.link}"
-    target="_blank"
-    rel="noopener noreferrer"
     data-reveal
     style="--reveal-index: ${index}"
   >
-    <p class="blog-date">${timeAgo(item.pubDate)}</p>
+    <img
+      src="${item.image}"
+      alt="${item.title}"
+      class="project-image"
+    />
+
     <h3 class="blog-title">${item.title}</h3>
-    <p class="blog-excerpt">${item.content.replace(/<[^>]*>/g, "").trim()}</p>
-    ${categoryChips(item.categories)}
-  </a>
+
+    <p class="blog-excerpt">
+      ${item.description}
+    </p>
+  </div>
 `;
 
 export function blogListTemplate(items) {

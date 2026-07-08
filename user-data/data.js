@@ -1,6 +1,6 @@
 export const bio = [
   "Business Analyst – Process improvement and building tools that make decisions easier and repetitive work disappear. ",
-  "Most of the projects I’ve worked on started the same way: poorly planned systems, inconsistent workflows, too much manual work, and a desperate need for efficiency. I enjoy stepping into those environments and figuring out how to make everyone’s lives easier. I build systems that give teams better tools and more time to focus on the work that actually matters. ",
+  "Most of the projects I’ve worked on started the same way: poorly planned systems, inconsistent workflows, too much manual work, and a desperate need for efficiency. I enjoy stepping into those environments. I build systems that give teams better tools and more time to focus on the work that actually matters. ",
   "When I’m not building workflows, you can usually find me behind a camera or somewhere on the other side of the world collecting postcards.",
 ];
 
