@@ -1,6 +1,7 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
-import { experience, education } from "../../user-data/data.js";
+/* Next like to add in education again: import { experience, education } from "../../user-data/data.js"; */
+import { experience } from "../../user-data/data.js";
 
 const tagsTemplate = (tags) => html`
   <div class="timeline-tags">
@@ -32,7 +33,8 @@ const timelineEntry = (item, index) => html`
 `;
 
 const experienceTemplate = () => {
-  const items = [...experience, ...education];
+/* Next line if you want to add in education again: const items = [...experience, ...education]; */
+  const items = [...experience];
   return html`
     <div class="container">
       <div class="section-heading">
