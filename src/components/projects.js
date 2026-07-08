@@ -64,5 +64,5 @@ const projectCard = (item, index) => html`
 `;
 
 export function blogListTemplate() {
-  return html`${projects.map((item, i) => blogCard(item, i))}`;
+  return html`${projects.map((item, i) => projectCard(item, i))}`;
 }
