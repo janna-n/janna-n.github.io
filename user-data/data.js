@@ -93,20 +93,21 @@ export const adventures = [
   {
     title: "Photography Projects",
     icon: "fa-solid fa-camera",
-    accent: "blue",
+    accent: "green",
     items: [
       {
         name: "Dis/Connected",
         state: "Barcelona, Spain",
-        height: "Artist Residency",
-        duration: "2025",
-//        level: "Moderate",
+        height: "Ha.aH Art Gallery",
+        duration: "Artist Residency",
+        level: "2025",
       },
       {
         name: "Photographer & Content Creator",
         state: "Ha Giang, Vietnam",
-        height: "Travel Photographer",
-        duration: "2026",
+        height: "Ha Giang Loop Hotel",
+        duration: "Travel Photographer",
+        level: "2026",
       },
       {
         name: "Tasmanian Tarkine",
@@ -115,7 +116,7 @@ export const adventures = [
         duration: "2023",
       },
       {
-        name: "City of Bayswater Community Art Awards & Exhibition",
+        name: "Bayswater Community Art Awards & Exhibition",
         state: "Perth, Australia",
         height: "Special Mention",
         duration: "2021",
@@ -129,7 +130,10 @@ export const adventures = [
       {
         name: "Slow Photography Walks",
         state: "Barcelona, Málaga, Granada, Istanbul, Hanoi",
-        height: "Community Arts Engagement",
+        height: "Istanbul",
+        duration: "Hanoi",
+        level: "Hanoi",
+        level: "Community Arts Engagement",
       },
     ],
   },
