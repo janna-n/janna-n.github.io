@@ -197,11 +197,11 @@ export const contact = [
     link: "https://github.com/janna-n",
     icon: "fa-brands fa-github",
   },
-//  {
-//    label: "Medium",
-//    link: "https://vinaysomawat.medium.com/",
-//    icon: "fa-brands fa-medium",
-//  },
+  {
+    label: "Resume",
+    link: "RESUME_URL",
+    icon: "fa-solid fa-file-arrow-down",
+  },
 ];
 
 export const footer = [
