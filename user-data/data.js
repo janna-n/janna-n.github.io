@@ -51,7 +51,7 @@ export const experience = [
     icon: "camera",
   },
   {
-    title: "Volunteer Photography & Work Exchange Projects Southeast Asia",
+    title: "Volunteer Photography & Work Exchange Projects | Southeast Asia",
     duration: "2025 – 2026",
     subtitle: "Photography & Cultural Exchange Projects",
     details: [
@@ -75,7 +75,7 @@ export const experience = [
   },
 ];
 
-export const education = [
+/*export const education = [
   {
     title: "B.Tech. in Computer Science and Engineering",
     duration: "2016 – 2020",
@@ -84,7 +84,7 @@ export const education = [
     tags: [],
     icon: "graduation-cap",
   },
-];
+];*/
 
 export const adventures = [
   {
