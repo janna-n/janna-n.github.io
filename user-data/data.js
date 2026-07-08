@@ -209,21 +209,25 @@ export const projects = [
   {
     image: "https://placehold.co/600x400",
     title: "Workforce Scheduling & Tracking System",
-    description: "Built a centralized workforce tracking system to manage nearly 1,000 employees across multiple shifts, crews, and work areas. Replaced unreliable manual tracking with a searchable Excel-based system that gave supervisors and departments real-time visibility into workforce assignments, training, and crew structure."
+    description: "Built a centralized workforce tracking system to manage nearly 1,000 employees across multiple shifts, crews, and work areas. Replaced unreliable manual tracking with a searchable Excel-based system that gave supervisors and departments real-time visibility into workforce assignments, training, and crew structure.",
+    tags: ["Workforce Planning", "Operations Analytics", "Excel Systems Design"]
   },
   {
     image: "https://placehold.co/600x400",
     title: "Attendance Reporting & Workforce Analytics Dashboard",
-    description: "Redesigned a manual attendance reporting process into an automated Excel reporting system that transformed raw attendance data into actionable insights. Added dashboards, trend analysis, employee tracking, and automated indicators to help management and HR identify potential issues faster."
+    description: "Redesigned a manual attendance reporting process into an automated Excel reporting system that transformed raw attendance data into actionable insights. Added dashboards, trend analysis, employee tracking, and automated indicators to help management and HR identify potential issues faster.",
+    tags: ["Process Improvement", "Reporting Automation", "Data Analysis"]
   },
   {
     image: "https://placehold.co/600x400",
     title: "HR PDF Automation",
-    description: "Created an Excel and Python automation tool that reduced hours of repetitive HR document preparation by generating employee forms automatically. Designed the workflow with non-technical users in mind, combining automation with validation and quality checks to improve accuracy."
+    description: "Created an Excel and Python automation tool that reduced hours of repetitive HR document preparation by generating employee forms automatically. Designed the workflow with non-technical users in mind, combining automation with validation and quality checks to improve accuracy.",
+    tags: ["Workflow Automation", "Python", "Document Generation"]
   },
   {
     image: "https://placehold.co/600x400",
     title: "Rapid Power App Prototype",
-    description: "Developed a functional Power Apps prototype in three days to support a maintenance team transition. The app connected to an Excel backend to capture attendance digitally, demonstrating my ability to quickly learn unfamiliar tools and deliver practical solutions under tight deadlines."
+    description: "Developed a functional Power Apps prototype in three days to support a maintenance team transition. The app connected to an Excel backend to capture attendance digitally, demonstrating my ability to quickly learn unfamiliar tools and deliver practical solutions under tight deadlines.",
+    tags: ["Rapid Prototyping", "Power Apps", "Digital Transformation"]
   }
 ];
