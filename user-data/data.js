@@ -6,7 +6,8 @@ export const bio = [
 
 export const skills = [
   "Advanced Excel",
-  "XLOOKUP",
+  "XLOOKUP()",
+  "LET()",
   "Dynamic Arrays",
   "Power Query",
   "PivotTables",
