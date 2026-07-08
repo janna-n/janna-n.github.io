@@ -60,6 +60,24 @@ const blogCard = (item, index) => html`
   </div>
 `;
 
-export function blogListTemplate(items) {
-  return html`${items.slice(0, 3).map((item, i) => blogCard(item, i))}`;
+const projects = [
+  {
+    image: "https://placehold.co/600x400",
+    title: "Project Title 1",
+    description: "Project description goes here."
+  },
+  {
+    image: "https://placehold.co/600x400",
+    title: "Project Title 2",
+    description: "Project description goes here."
+  },
+  {
+    image: "https://placehold.co/600x400",
+    title: "Project Title 3",
+    description: "Project description goes here."
+  }
+];
+
+export function blogListTemplate() {
+  return html`${projects.map((item, i) => blogCard(item, i))}`;
 }
