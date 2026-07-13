@@ -174,9 +174,9 @@ export const adventures = [
         height: "15,547 ft",
       },
       {
-        name: "ZojiLa Pass",
-        state: "Jammu & Kashmir",
-        height: "11,575 ft",
+        name: "First Steps Into Solo Travel",
+        state: "America",
+        height: "Las Vegas, Seattle",
       },
     ],
   },
