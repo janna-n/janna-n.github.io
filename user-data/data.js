@@ -200,7 +200,7 @@ export const contact = [
   },
   {
     label: "Resume",
-    link: "RESUME_URL",
+    link: "https://janna-n.github.io/assets/Janna_Nystrom_CV.pdf",
     icon: "fa-solid fa-file-arrow-down",
   },
 ];
