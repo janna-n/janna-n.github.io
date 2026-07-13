@@ -145,8 +145,10 @@ export const adventures = [
         name: "Independence & Resilience",
         state: "Australia",
         height: "Queensland | Victoria | New South Wales | ACT | South Australia | Western Australia | Tasmania",
-//        duration: "1 Day",
-//        level: "Easy",
+        duration: "1 Day",
+        level: "Easy",
+        test1: "testtext",
+        test2: "testtext",
       },
       {
         name: "Adaptability & Appreciation",
@@ -154,9 +156,9 @@ export const adventures = [
         height: "Pekanbaru | Yogyakarta | Gili Trawangan | Denpasar, Bali | Jakarta",
       },
       {
-        name: "Tanglang La Pass",
-        state: "Ladakh",
-        height: "17,480 ft",
+        name: "Creativity & Community",
+        state: "Malaysia",
+        height: "Penang | Perhentian Islands |  Kuala Lumpur | Melaka | Langkawi",
       },
       {
         name: "Lachung La Pass",
