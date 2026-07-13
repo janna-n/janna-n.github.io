@@ -19,4 +19,4 @@ export const URLs = {
 export const CONTACT_FORM_ENDPOINT = "https://api.web3forms.com/submit";
 export const WEB3FORMS_ACCESS_KEY = "a1148e9c-8086-4a2c-90df-3f7a3a2a5169";
 
-export const RESUME_URL = "./assets/resume.pdf"; // TODO: add resume.pdf to /assets
+export const RESUME_URL = "./assets/Janna_Nystrom_CV"; // TODO: add resume.pdf to /assets
