@@ -15,6 +15,10 @@ const adventureItem = (item) => html`
       <span class="chip">${item.Place1}</span>
       ${item.Place2 ? html`<span class="chip">${item.Place2}</span>` : ""}
       ${item.Place3 ? html`<span class="chip">${item.Place3}</span>` : ""}
+      ${item.Place4 ? html`<span class="chip">${item.Place4}</span>` : ""}
+      ${item.Place5 ? html`<span class="chip">${item.Place5}</span>` : ""}
+      ${item.Place6 ? html`<span class="chip">${item.Place6}</span>` : ""}
+      ${item.Place7 ? html`<span class="chip">${item.Place7}</span>` : ""}
     </div>
   </li>
 `;

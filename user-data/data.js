@@ -144,11 +144,13 @@ export const adventures = [
       {
         name: "Independence & Resilience",
         state: "Australia",
-        Place1: "Queensland | Victoria | New South Wales | ACT | South Australia | Western Australia | Tasmania",
-        Place2: "1 Day",
-        Place3: "Easy",
-        test1: "testtext",
-        test2: "testtext",
+        Place1: "Queensland",
+        Place2: "Victoria",
+        Place3: "New South Wales",
+        Place4: "ACT",
+        Place5: "South Australia",
+        Place6: "Western Australia",
+        Place7: "Tasmania",
       },
       {
         name: "Adaptability & Appreciation",
