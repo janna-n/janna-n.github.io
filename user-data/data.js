@@ -1,3 +1,5 @@
+import { RESUME_URL } from "../constants/urls.js";
+
 export const bio = [
   "Business Analyst – Process improvement and building tools that make decisions easier and repetitive work disappear. ",
   "Most of the projects I’ve worked on started the same way: poorly planned systems, inconsistent workflows, too much manual work, and a desperate need for efficiency. I enjoy stepping into those environments. I build systems that give teams better tools and more time to focus on the work that actually matters. ",
