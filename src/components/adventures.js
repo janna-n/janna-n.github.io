@@ -12,9 +12,9 @@ const adventureItem = (item) => html`
       </span>
     </div>
     <div class="adventure-meta">
-      <span class="chip">${item.height}</span>
-      ${item.duration ? html`<span class="chip">${item.duration}</span>` : ""}
-      ${item.level ? html`<span class="chip">${item.level}</span>` : ""}
+      <span class="chip">${item.Place1}</span>
+      ${item.Place2 ? html`<span class="chip">${item.Place2}</span>` : ""}
+      ${item.Place3 ? html`<span class="chip">${item.Place3}</span>` : ""}
     </div>
   </li>
 `;

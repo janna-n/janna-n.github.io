@@ -28,7 +28,7 @@ export const skills = [
 export const experience = [
   {
     title: "Brock Group",
-    duration: "Aug 2024 – Oct 2025",
+    Place2: "Aug 2024 – Oct 2025",
     subtitle: "Project Controls Admin / Lead On-Site Crew Coordinator",
     details: [
       "Worked on a large-scale construction project supporting workforce coordination, payroll processes, reporting, and operational administration for a workforce of nearly 1,000 employees.",
@@ -43,7 +43,7 @@ export const experience = [
   },
   {
     title: "Ha.aH Art Gallery",
-    duration: "Oct 2025 – Nov 2025",
+    Place2: "Oct 2025 – Nov 2025",
     subtitle: "Artist Residency – Photography",
     details: [
       "Completed an independent photography project exploring urban identity as part of a selective artist residency program.",
@@ -56,7 +56,7 @@ export const experience = [
   },
   {
     title: "Volunteer Photography & Work Exchange Projects | Southeast Asia",
-    duration: "2025 – 2026",
+    Place2: "2025 – 2026",
     subtitle: "Photography & Cultural Exchange Projects",
     details: [
       "Provided photography services through international work-exchange programs while developing independent creative projects.",
@@ -69,7 +69,7 @@ export const experience = [
   },
   {
     title: "Volunteer Work Australia",
-    duration: "2024",
+    Place2: "2024",
     subtitle: "Volunteer Projects",
     details: [
       "Participated in structured volunteer programs requiring reliability, teamwork, and adapting to established procedures.",
@@ -82,7 +82,7 @@ export const experience = [
 export const education = [
   {
     title: "",
-    duration: "",
+    Place2: "",
     subtitle: "",
     details: [],
     tags: [],
@@ -99,40 +99,40 @@ export const adventures = [
       {
         name: "Dis/Connected",
         state: "Barcelona, Spain",
-        height: "Ha.aH Art Gallery",
-        duration: "Artist Residency",
-        level: "2025",
+        Place1: "Ha.aH Art Gallery",
+        Place2: "Artist Residency",
+        Place3: "2025",
       },
       {
         name: "Photographer & Content Creator",
         state: "Ha Giang, Vietnam",
-        height: "Ha Giang Loop Hotel",
-        duration: "Travel Photographer",
-        level: "2026",
+        Place1: "Ha Giang Loop Hotel",
+        Place2: "Travel Photographer",
+        Place3: "2026",
       },
       {
         name: "Tasmanian Tarkine",
         state: "Tasmania, Australia",
-        height: "Photography Assistant",
-        duration: "2023",
+        Place1: "Photography Assistant",
+        Place2: "2023",
       },
       {
         name: "Bayswater Art Awards & Exhibition",
         state: "Perth, Australia",
-        height: "Special Mention",
-        duration: "2021",
+        Place1: "Special Mention",
+        Place2: "2021",
       },
       {
         name: "Human Residue",
         state: "Global",
-        height: "Photography Project",
-        duration: "Continual",
+        Place1: "Photography Project",
+        Place2: "Continual",
       },
       {
         name: "Slow Photography Walks",
         state: "Barcelona, Málaga, Granada, Istanbul, Hanoi",
-        height: "Hosted",
-        level: "Community Arts Engagement",
+        Place1: "Hosted",
+        Place3: "Community Arts Engagement",
       },
     ],
   },
@@ -144,41 +144,43 @@ export const adventures = [
       {
         name: "Independence & Resilience",
         state: "Australia",
-        height: "Queensland | Victoria | New South Wales | ACT | South Australia | Western Australia | Tasmania",
-        duration: "1 Day",
-        level: "Easy",
+        Place1: "Queensland | Victoria | New South Wales | ACT | South Australia | Western Australia | Tasmania",
+        Place2: "1 Day",
+        Place3: "Easy",
         test1: "testtext",
         test2: "testtext",
       },
       {
         name: "Adaptability & Appreciation",
         state: "Indonesia",
-        height: "Pekanbaru | Yogyakarta | Gili Trawangan | Denpasar, Bali | Jakarta",
+        Place1: "Pekanbaru | Yogyakarta | Gili Trawangan | Denpasar, Bali | Jakarta",
       },
       {
         name: "Creativity & Community",
         state: "Malaysia",
-        height: "Penang | Perhentian Islands |  Kuala Lumpur | Melaka | Langkawi",
+        Place1: "Penang | Perhentian Islands |  Kuala Lumpur | Melaka | Langkawi",
       },
       {
         name: "Lachung La Pass",
         state: "Ladakh",
-        height: "16,616 ft",
+        Place1: "16,616 ft",
+        Place2: "1 Day",
+        Place3: "Easy",
       },
       {
         name: "Curiosity & Determination",
         state: "Singapore",
-        height: "Singapore",
+        Place1: "Singapore",
       },
       {
         name: "Mexico",
         state: "Shared Experiences",
-        height: "Playa del Carmen | Los Cabos | Cancun",
+        Place1: "Playa del Carmen | Los Cabos | Cancun",
       },
       {
         name: "First Steps Into Solo Travel",
         state: "America",
-        height: "Las Vegas | Seattle",
+        Place1: "Las Vegas | Seattle",
       },
     ],
   },
