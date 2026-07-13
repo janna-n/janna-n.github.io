@@ -196,7 +196,7 @@ export const adventures = [
         Place5: "Ha Giang",
         Place6: "Hue",
         Place7: "Ninh Binh",
-	      Place 8: "Ho Chi Minh City (Saigon)",
+	      Place8: "Ho Chi Minh City (Saigon)",
       },
       {
         name: "Human Connection",
