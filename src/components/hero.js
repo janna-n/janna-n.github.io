@@ -44,7 +44,7 @@ const heroTemplate = () => html`
       </p>
       <div class="hero-cta-row" data-reveal>
         <a
-          class="btn btn-primary magnetic ripple" href="#experience"
+          class="btn btn-primary magnetic ripple" href="#blog"
         >
           View Projects
         </a>

@@ -27,7 +27,7 @@ const contactTemplate = () => html`
         Let's build something <span class="gradient-text">useful</span>.
       </h2>
       <p class="section-subtitle" data-reveal>
-        Pick the channel that fits best — discussions, collaborations,
+        Pick the channel that fits best – discussions, collaborations,
         project feedback, or just a quick hello.
       </p>
       <ul class="contact-link-list" data-reveal>
