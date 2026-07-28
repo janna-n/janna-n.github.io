@@ -45,19 +45,26 @@ const projectCard = (item, index) => html`
     data-reveal
     style="--reveal-index: ${index}"
   >
-    <img
-      src="${item.image}"
-      alt="${item.title}"
-      class="project-image"
-    />
-    <video
-      src="${item.media}"
-      class="project-image"
-      autoplay
-      muted
-      loop
-      playsinline>
-    </video>
+    ${
+      item.media
+        ? html`
+            <video
+              src="${item.media}"
+              class="project-image"
+              autoplay
+              muted
+              loop
+              playsinline>
+            </video>
+          `
+        : html`
+            <img
+              src="${item.image}"
+              alt="${item.title}"
+              class="project-image"
+            />
+          `
+    }
 
     <h3 class="blog-title">${item.title}</h3>
 
