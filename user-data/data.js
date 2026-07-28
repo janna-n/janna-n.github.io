@@ -301,7 +301,7 @@ export const footer = [
 
 export const projects = [
   {
-    image: "https://placehold.co/600x400",
+    media: "/assets/1 - Project 1/P1_Nav_V-FINAL.mp4",
     title: "Workforce Scheduling & Tracking System",
     description: "Built a centralized workforce tracking system to manage nearly 1,000 employees across multiple shifts, crews, and work areas. Replaced unreliable manual tracking with a searchable Excel-based system that gave supervisors and departments real-time visibility into workforce assignments, training, and crew structure.",
     tags: ["Workforce Planning", "Operations Analytics", "Excel Systems Design"]

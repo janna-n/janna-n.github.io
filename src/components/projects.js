@@ -50,6 +50,14 @@ const projectCard = (item, index) => html`
       alt="${item.title}"
       class="project-image"
     />
+    <video
+      src="${item.media}"
+      class="project-image"
+      autoplay
+      muted
+      loop
+      playsinline>
+    </video>
 
     <h3 class="blog-title">${item.title}</h3>
 
