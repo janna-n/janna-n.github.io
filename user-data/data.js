@@ -307,7 +307,7 @@ export const projects = [
     tags: ["Workforce Planning", "Operations Analytics", "Excel Systems Design"]
   },
   {
-    image: "https://placehold.co/600x400",
+    image: "/assets/P2/P2_Dashboard_I.png",
     title: "Attendance Reporting & Workforce Analytics Dashboard",
     description: "Redesigned a manual attendance reporting process into an automated Excel reporting system that transformed raw attendance data into actionable insights. Added dashboards, trend analysis, employee tracking, and automated indicators to help management and HR identify potential issues faster.",
     tags: ["Process Improvement", "Reporting Automation", "Data Analysis"]
