@@ -1,5 +1,6 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
+import { contact, footer } from "../../user-data/data.js";
 
 const hero = document.getElementById("hero");
 
