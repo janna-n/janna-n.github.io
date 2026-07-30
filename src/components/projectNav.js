@@ -2,21 +2,19 @@ import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
 
 const NAV_LINKS = [
-  { id: "about", label: "About" },
-  { id: "blog", label: "Portfolio" },
-  { id: "skills", label: "Skills" },
-  { id: "experience", label: "Experience" },
-  { id: "adventures", label: "Adventures" },
-  { id: "contact", label: "Contact" },
-//  { id: "github", label: "GitHub" },
+  { href: "../../index.html", label: "Home" },
+  { href: "../project-1/", label: "Crew Tracker" },
+  { href: "../project-2/", label: "Dashboard" },
+  { href: "../project-3/", label: "Power Apps" },
+  { href: "../project-4/", label: "Portfolio" },
 ];
 
 const linkItem = (link, mobile = false) => html`
   <li>
     <a
-      href="#${link.id}"
+      href="${link.href}"
       class="nav-link underline-link${mobile ? " nav-link-mobile" : ""}"
-      data-nav-link="${link.id}"
+      data-nav-link="undefined"
     >
       ${link.label}
     </a>
@@ -26,7 +24,7 @@ const linkItem = (link, mobile = false) => html`
 const navTemplate = () => html`
   <header class="site-nav glass" id="siteNav">
     <div class="container nav-inner">
-      <a href="#hero" class="nav-logo underline-link" aria-label="Janna Nystrom — back to top">
+      <a href="../index.html" class="nav-logo underline-link" aria-label="Janna Nystrom — back to top">
         Janna<span class="gradient-text">.</span>
       </a>
 
