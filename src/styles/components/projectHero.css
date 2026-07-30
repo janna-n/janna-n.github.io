@@ -47,9 +47,11 @@
 
 /* Text for the projects */
 .project-text {
-  max-width: 1000px;
+  max-width: 1100px;
   margin-top: var(--space-5);
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
   color: var(--color-text-secondary);
+  text-align: left;
+  justify-items: start;
 }
