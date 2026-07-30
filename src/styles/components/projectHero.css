@@ -1,26 +1,31 @@
 /* Project Hero Overrides */
 
+/* Controls the overall height of the hero section */
 #hero {
+  /* 70% of the screen height */
   min-height: 70dvh;
 }
 
+/* Changes the layout to one column */
 .hero-inner {
   grid-template-columns: 1fr;
   text-align: left;
-  justify-items: left;
+  justify-items: start;
 }
 
+/* This is "Projec #" */
 .hero-title {
   font-size: var(--text-3xl);
 }
 
+/* This is the project title */
 .hero-role {
   font-size: var(--text-hero);
-  margin-top: var(--space-4);
+  margin-top: var(--space-3);
 }
 
+/* Text */
 .hero-description {
   max-width: 800px;
   font-size: var(--text-lg);
-  margin-inline: auto;
 }
