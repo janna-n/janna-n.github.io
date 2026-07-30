@@ -76,7 +76,7 @@ const navTemplate = () => html`
   </header>
 `;
 
-export function mountNav() {
+export function mountProjectNav() {
   return mount("nav-root", navTemplate());
 }
 
