@@ -56,10 +56,15 @@
 }
 
 .project-text ul {
-  margin: var(--space-4) 0;
+  list-style: disc;
   padding-left: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .project-text li {
   margin-bottom: 0.5rem;
+}
+
+.project-text ul ul {
+  list-style: circle;
 }
