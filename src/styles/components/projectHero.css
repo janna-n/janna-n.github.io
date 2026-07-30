@@ -6,8 +6,8 @@
 
 .hero-inner {
   grid-template-columns: 1fr;
-  text-align: center;
-  justify-items: center;
+  text-align: left;
+  justify-items: left;
 }
 
 .hero-title {
