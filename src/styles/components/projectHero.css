@@ -15,7 +15,7 @@
 
 /* This is "Projec #" */
 .hero-title {
-  margin-top: var(--space-2);
+  margin-top: var(--space-1);
   font-size: var(--text-xl);
 }
 
