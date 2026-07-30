@@ -15,13 +15,14 @@
 
 /* This is "Projec #" */
 .hero-title {
-  font-size: var(--text-3xl);
+  margin-top: var(--space-4);
+  font-size: var(--text-xl);
 }
 
 /* This is the project title */
 .hero-role {
-  font-size: var(--text-hero);
-  margin-top: var(--space-3);
+  font-size: var(--text-3xl);
+  margin-top: var(--space-2);
 }
 
 /* Text */
