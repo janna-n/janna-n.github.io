@@ -59,3 +59,9 @@
   height: auto;
   border-radius: var(--radius-lg);
 }
+
+.project-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}

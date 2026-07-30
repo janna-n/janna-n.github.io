@@ -40,11 +40,15 @@ const categoryChips = (categories = []) => html`
 `;
 
 const projectCard = (item, index) => html`
-  <div
-    class="blog-card glass glass-interactive glow-card"
-    data-reveal
-    style="--reveal-index: ${index}"
+  <a
+    href="${item.link}"
+    class="project-card-link"
   >
+    <div
+      class="blog-card glass glass-interactive glow-card"
+      data-reveal
+      style="--reveal-index: ${index}"
+    >
     ${
       item.media
         ? html`
@@ -76,6 +80,7 @@ const projectCard = (item, index) => html`
       ${item.tags?.map((tag) => html`<span class="chip">${tag}</span>`)}
     </div>
   </div>
+</a>
 `;
 
 export function blogListTemplate() {
