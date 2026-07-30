@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Janna Nystrom – Janna builds practical solutions by improving workflows and automating repetitive processes."
+    />
+    <meta
+      name="keywords"
+      content="janna nystrom,business analyst,process improvement,automation,operations analyst,Excel automation,Python automation,Power Apps,data analysis,workflow optimization"
+    />
+    <meta name="author" content="Janna Nystrom" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://janna-n.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Janna Nystrom – Business Analyst" />
+    <meta
+      property="og:description"
+      content="Business Analyst"
+    />
+
+    <meta name="twitter:image" content="https://vinaysomawat.github.io/logo.png" />
+
+    <link rel="icon" type="image/png" href="./logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <script>
+      (function () {
+        var stored = localStorage.getItem("portfolio-theme");
+        document.documentElement.dataset.theme = stored === "light" ? "light" : "dark";
+      })();
+    </script>
+
+    <link rel="stylesheet" href="src/styles/tokens.css" />
+    <link rel="stylesheet" href="src/styles/base.css" />
+    <link rel="stylesheet" href="src/styles/animations.css" />
+    <link rel="stylesheet" href="src/styles/utilities.css" />
+    <link rel="stylesheet" href="src/styles/components/nav.css" />
+    <link rel="stylesheet" href="src/styles/components/command-palette.css" />
+    <link rel="stylesheet" href="src/styles/components/hero.css" />
+    <link rel="stylesheet" href="src/styles/components/projectHero.css" />
+    <link rel="stylesheet" href="src/styles/components/projects.css" />
+    <link rel="stylesheet" href="src/styles/components/project-cta.css" />
+    <link rel="stylesheet" href="src/styles/components/footer.css" />
+
+    <script type="module" src="src/projectMain.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="scroll-progress no-print" aria-hidden="true">
+      <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <div id="nav-root" class="no-print"></div>
+
+    <button
+      type="button"
+      class="back-to-top no-print magnetic ripple"
+      id="backToTop"
+      aria-label="Back to top"
+    >
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <div id="command-palette-root"></div>
+
+    <main id="main-content">
+
+      <section
+        id="hero"
+        data-section="hero"
+        aria-label="Project Introduction"
+
+        data-project-name="Project #"
+        data-project-title="Project Title"
+      >
+      </section>
+      
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">Overview</h2>
+
+          <video
+            class="project-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls>
+            <source src="./assets/demo-video.mp4" type="video/mp4">
+          </video>
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">Problem</h2>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">My Role</h2>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">Solution</h2>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">Result</h2>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">Skills Demonstrated</h2>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">Key Takeaway</h2>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-section">
+        <div class="container">
+
+          <h2 class="hero-title">The System in Action</h2>
+
+          <video
+            class="project-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls>
+            <source src="./assets/demo-video.mp4" type="video/mp4">
+          </video>
+
+          <p class="project-text">
+            Project Text
+          </p>
+
+        </div>
+      </section>
+
+      <section class="project-cta section">
+        <div class="container">
+
+          <div class="project-cta-card">
+
+            <div class="hero-cta-row">
+
+              <a
+                class="btn btn-primary magnetic ripple"
+                href="../../index.html#blog"
+              >
+                View Projects
+              </a>
+
+              <a class="btn btn-secondary magnetic ripple"
+                href="../../assets/Janna_Nystrom_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                Resume
+              </a>
+
+              <a
+                class="btn btn-ghost underline-link magnetic"
+                href="../../index.html#footer"
+              >
+                Contact
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="footer" class="no-print"></footer>
+  </body>
+</html>
