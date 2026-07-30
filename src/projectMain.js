@@ -1,6 +1,7 @@
 import { mountProjectHero } from "./components/projectHero.js";
 import { mountFooter } from "./components/footer.js";
 import { mountNav } from "./components/nav.js";
+import { initVisitorCounter } from "./services/visitorCounter.js";
 
 import { initNavScroll } from "./services/nav-scroll.js";
 import { initTheme } from "./services/theme.js";
@@ -17,6 +18,7 @@ function initServices() {
   initTheme();
   initNavScroll();
   initInteractions();
+  initVisitorCounter();
 }
 
 mountStaticSections();
