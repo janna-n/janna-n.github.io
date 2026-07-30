@@ -3,7 +3,7 @@
 /* Controls the overall height of the hero section */
 #hero {
   /* 70% of the screen height */
-  min-height: 70dvh;
+  min-height: 50dvh;
 }
 
 /* Changes the layout to one column */
