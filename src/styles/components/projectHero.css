@@ -13,15 +13,19 @@
   justify-items: start;
 }
 
-/* This is "Projec #" */
+/* This is "Projec #" hero section */
 .hero-title {
   font-size: var(--text-xl);
 }
 
-/* This is the project title */
+/* This is the project title hero section */
 .hero-role {
   font-size: var(--text-3xl);
   /*margin-top: var(--space-1);*/
+}
+
+.project-section {
+  padding: var(--space-8) 0;
 }
 
 /* Styles the video */
@@ -35,6 +39,7 @@
 
 /* Text for the projects */
 .project-text {
+  max-width: 1000px;
   margin-top: var(--space-5);
   font-size: var(--text-base);
   line-height: var(--leading-relaxed);
