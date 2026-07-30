@@ -1,6 +1,14 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
 
+const hero = document.getElementById("hero");
+
+const project = {
+  name: hero.dataset.projectName,
+  title: hero.dataset.projectTitle,
+  description: hero.dataset.projectDescription,
+};
+
 const projectHeroTemplate = () => html`
   <div class="hero-bg" aria-hidden="true">
     <div class="hero-mesh"></div>
@@ -13,17 +21,15 @@ const projectHeroTemplate = () => html`
     <div class="hero-copy">
 
       <h1 class="hero-title" data-reveal>
-        Project Title
+        ${project.name}
       </h1>
 
       <p class="hero-role gradient-text-animated" data-reveal>
-        Building better ways of working
+        ${project.title}
       </p>
 
       <p class="hero-description" data-reveal>
-        I enjoy untangling messy workflows and building practical tools
-        that make people's jobs easier. Most of my projects combine Excel,
-        automation, reporting, and process design to streamline repetitive work.
+        ${project.description}
       </p>
 
     </div>
