@@ -26,6 +26,6 @@
 
 /* Text */
 .hero-description {
-  max-width: 950px;
+  max-width: 1000px;
   font-size: var(--text-base);
 }
