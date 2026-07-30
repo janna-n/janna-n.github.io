@@ -24,8 +24,11 @@
   /*margin-top: var(--space-1);*/
 }
 
-/* Text */
-.hero-description {
-  max-width: 1000px;
-  font-size: var(--text-base);
+/* Styles the video */
+.project-video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--radius-lg);
+  margin-top: var(--space-5);
 }
