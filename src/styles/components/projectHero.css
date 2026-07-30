@@ -15,7 +15,7 @@
 
 /* This is "Projec #" */
 .hero-title {
-  margin-top: var(--space-1);
+  /*margin-top: var(--space-1);*/
   font-size: var(--text-xl);
 }
 
@@ -27,6 +27,6 @@
 
 /* Text */
 .hero-description {
-  max-width: 800px;
+  max-width: none;
   font-size: var(--text-base);
 }
