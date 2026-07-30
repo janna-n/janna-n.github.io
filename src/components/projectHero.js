@@ -1,6 +1,5 @@
 import { html } from "https://unpkg.com/lit-html?module";
 import { mount } from "../utils/dom.js";
-import { initVisitorCounter } from "./services/visitorCounter.js";
 
 const hero = document.getElementById("hero");
 
