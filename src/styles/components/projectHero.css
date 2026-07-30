@@ -21,7 +21,7 @@
 /* This is the project title */
 .hero-role {
   font-size: var(--text-3xl);
-  margin-top: var(--space-1);
+  /*margin-top: var(--space-1);*/
 }
 
 /* Text */
