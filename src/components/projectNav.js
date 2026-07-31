@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { href: "../projects/attendance-reporting", label: "Attendance Reporting" },
   { href: "../projects/auto-pdf", label: "Auto PDF" },
   { href: "../projects/power-app", label: "Power Apps" },
+  { href: "../../index.html#footer", label: "Contact" },
 ];
 
 const linkItem = (link, mobile = false) => html`
