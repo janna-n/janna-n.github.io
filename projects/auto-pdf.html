@@ -262,22 +262,39 @@
 
           <div class="project-text">
             
-            <p><i><b>TITLE</b></i></p>
+            <p><i><b>Simple User Workflow</b></i></p>
             <ul>
-              <li>LIST</li>
-            </ul>
+              <li>Admins simply selected the employees requiring forms and chose the appropriate reason. Employee details, such as ID number and last day on site, were automatically retrieved, while optional comments could be added if needed.</li>
+              <li>Once the workbook was saved, a single double-click launched the Python script, which automatically generated every completed PDF in the background. No programming knowledge needed.</li>
+              <li>I intentionally left the employee signature as a manual step so each document would still be reviewed before being finalized. When the batch was complete, the form could be cleared with one click and reused for the next batch.</li>
+            </ul>          
+            <video
+              class="project-video"
+              autoplay
+              muted
+              loop
+              playsinline
+              controls>
+              <source src="./P3/P3_RunningScript_V-FINAL.mp4" type="video/mp4">
+            </video>
+
+            <p><i><b><br>Built-in Validation & Error Handling</b></i></p>
+            <ul>
+              <li>Automation only saves time if people can trust it, so I built validation into the workbook to catch common mistakes before PDFs were generated.</li>
+              <li>Some situations required manual review – for example, employees whose attendance history affected how their final paperwork should be processed. Rather than making assumptions, the tool flagged these records with "Manual Check" so an administrator could verify the correct outcome.</li>
+              <li>It also prevented simple input errors, such as selecting multiple termination reasons for the same employee, helping maintain accurate and consistent documentation.</li>
+            </ul>          
+            <video
+              class="project-video"
+              autoplay
+              muted
+              loop
+              playsinline
+              controls>
+              <source src="./assets/demo-video.mp4" type="video/mp4">
+            </video>
 
           </div>
-          <video
-            class="project-video"
-            autoplay
-            muted
-            loop
-            playsinline
-            controls>
-            <source src="./assets/demo-video.mp4" type="video/mp4">
-          </video>
-
         </div>
       </section>
 
