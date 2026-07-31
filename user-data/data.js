@@ -315,19 +315,19 @@ export const projects = [
     link: "./projects/attendance-reporting.html",
   },
   {
-    media: "/projects/P3/P3_RunningScript_V-FINAL.mp4",
-    title: "HR PDF Automation",
-    description: "Created an Excel and Python automation tool that reduced hours of repetitive HR document preparation by generating employee forms automatically. Designed the workflow with non-technical users in mind, combining automation with validation and quality checks to improve accuracy.",
-    tags: ["Workflow Automation", "Python", "Document Generation"],
-    link: "./projects/auto-pdf.html",
-  },
-  {
     media: "/projects/P4/Rapid_Power_App_Prototype-BLURRED-FINAL.mp4",
     title: "Rapid Power App Prototype",
     description: "Developed a functional Power Apps prototype in three days to support a maintenance team transition. The app connected to an Excel backend to capture attendance digitally, demonstrating my ability to quickly learn unfamiliar tools and deliver practical solutions under tight deadlines.",
     tags: ["Rapid Prototyping", "Power Apps", "Digital Transformation"],
     link: "./projects/power-app.html",
   }
+  {
+    media: "/projects/P3/P3_RunningScript_V-FINAL.mp4",
+    title: "HR PDF Automation",
+    description: "Created an Excel and Python automation tool that reduced hours of repetitive HR document preparation by generating employee forms automatically. Designed the workflow with non-technical users in mind, combining automation with validation and quality checks to improve accuracy.",
+    tags: ["Workflow Automation", "Python", "Document Generation"],
+    link: "./projects/auto-pdf.html",
+  },
 ];
 
 // https://placehold.co/600x400
